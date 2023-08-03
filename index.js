@@ -5,3 +5,12 @@ const message = [
     ["Quel est l’arbre préféré du chômeur ? Le bouleau."],
     ["Que dit une mère à son fils geek quand le dîner est servi ? Alt Tab !"]
 ]
+
+
+
+function citation () {
+    let randomNumber = Math.floor(Math.random() * (message.length));
+    console.log(message[randomNumber]);
+}
+
+citation();
